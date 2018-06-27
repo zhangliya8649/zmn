@@ -1,0 +1,68 @@
+/*Guanzhenzhi web Created on 20170222*/
+body{overflow-x:auto;}
+.w1100{width:1100px;margin-left:auto;margin-right:auto;}
+.center{margin-left:auto;margin-right:auto;}
+/*引用的jslibrary.css文件中的h2的样式重新覆写*/
+h2{padding:0;}
+.fc_gray{color: #999999;}
+.fc_gray1{color: #323232;}
+.fc_gray2{color: #6a6a6a;}
+.fc_orange{color: #ed6d1f;}
+
+/*盒子模型样式*/
+.border_bottom{border-bottom:1px solid #ddd;}
+.borderb_none{border-bottom:none;}
+.mt17{margin-top:17px;}
+.mr20{margin-right:20px;}
+.mr15{margin-right:15px;}
+.mr30{margin-right:30px;}
+.mr35{margin-right:35px;}
+/*about*/
+.search .navs .logo{padding-left:27px; background-position:27px 0;}
+.search .navs ul{width:877px;height:38px;}
+.search .navs ul li{float:left;padding-top:13px; margin-right:65px;}
+.search .navs ul li a{font-size:16px; display:block; line-height:35px;height:35px;}
+.search .navs ul li a:hover{border-bottom:3px #ffe100 solid;}
+
+.about_banner{background:url(/skin/zmn_v3/static/images/about/bannerbj.jpg) center top no-repeat #e6ebf8; width:100%;height:380px;}
+.about_banner img{display:none; margin:0 auto;}
+
+.about_content{width:100%; background:#f9f9f9; padding-bottom:50px; padding-top:32px;}
+.about_content .about_cor{border:1px #ddd solid; width:1098px; background:url(/skin/zmn_v3/static/images/about/leftnav.png) left repeat-y #f9f9f9; display:table; padding-bottom:60px;}
+
+.about_content .leftNav{width:228px; border-right:1px #ddd solid;}
+.about_content .leftNav li{height:52px; line-height:52px; border-bottom:1px #ddd dashed;}
+.about_content .leftNav li a{display:block; padding-left:27px;height:52px;line-height:52px; background:url(/skin/zmn_v3/static/images/about/leftico.png) 197px center no-repeat;}
+.about_content .leftNav li a.hover{color:#ff5400;}
+
+.about_content .right_cor{width:800px;padding-top:38px;}
+.about_content .right_cor .title{border-bottom:1px #ddd solid;height:42px;line-height:42px;}
+.about_content .right_cor .title strong{border-bottom:3px #ff9c4a solid;height:42px;line-height:42px; display:inline-block;}
+.about_content .right_cor .news{border-bottom:1px #ddd solid;height:50px;}
+.about_content .right_cor p{line-height:28px;}
+.about_content .right_cor h2{border-bottom:1px #ddd solid; line-height:48px;}
+.about_content .about1 p{ line-height:28px; font-size:14px; text-indent:2em;}
+.about_content .about2 p{ line-height:28px; font-size:14px;}
+.about_content .right_cor table p{text-indent:0;}
+.about_content .about1 hr{border:none; border-bottom:1px #ddd solid; margin:20px 0;}
+
+.about_content .job{width:100%;}
+.about_content .job h3{line-height:22px;height:32px; border-bottom:1px #ddd dashed;}
+.about_content .job span{padding-right:25px;}
+.about_content .job  p{line-height:28px; font-size:14px; padding-bottom:15px;}
+
+/*公司新闻css*/
+.about_content .about_news{}
+.about_content .about_news ul{padding-bottom:20px;}
+.about_content .about_news li{height:36px;}
+.about_content .about_news li a{display:block;width:670px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis; display:block;}
+.about_content .about_news p{ line-height:28px; font-size:14px; padding-bottom:10px;}
+.about_content .time_rq{width:100%;height:28px;line-height:36px; text-align:center;}
+.about_content .time_rq span{display:inline-block;font-size:14px;margin:0 15px;}
+
+
+/*翻页css*/
+.list_page{padding-top: 15px; padding-bottom:30px; font-size:14px; text-align:center;}
+.list_page a{display:inline-block;height: 36px;padding-left:12px;padding-right:12px;margin:0 5px;border:1px solid #ffe200;line-height: 36px;color: #323232;}
+.list_page a:hover,.list_page a.sel{background: #ffe200;color: #323232;}
+.list_page span{display:inline-block;height: 38px;line-height: 38px;color: #323232; margin:0 5px;}

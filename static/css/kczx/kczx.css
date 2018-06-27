@@ -1,0 +1,33 @@
+/*Guanzhenzhi web debugging on 20170221*/
+body{overflow-x:auto;}
+.w1100{width:1100px;margin-left:auto;margin-right:auto;}
+.center{margin-left:auto;margin-right:auto;}
+/*引用的jslibrary.css文件中的h2的样式重新覆写*/
+h2{padding:0;}
+
+/*盒子模型样式*/
+.border_bottom{border-bottom:1px solid #ddd;}
+.borderb_none{border-bottom:none;}
+.mt17{margin-top:17px;}
+.mr20{margin-right:20px;}
+.mr15{margin-right:15px;}
+/*轮播图样式*/
+/*服务指南下的样式*/
+.nav ul li.zn{cursor:pointer;}
+.nav ul li.zn #aside_menu{display:none;opacity:1;}
+
+/*大片文章内容显示*/
+.kczx_content .article{padding-bottom:70px;}
+.kczx_content .article h2{line-height:21px;height:21px;font-size:18px;color:#323232;}
+.kczx_content .kczx_tit{width:640px;height:36px;top:0;left:204px;}
+.kczx_content .kczx_tit a{display:block; float:left; width:76px;line-height:36px;height:36px;border:1px #ddd solid; border-bottom:none; border-right:none;}
+.kczx_content .kczx_tit a.last{border-right:1px #DDD solid;}
+.kczx_content .kczx_tit a.sel{border-top:3px #fcde00 solid; border-bottom:2px #FFF solid;height:32px;line-height:32px;}
+.kczx_content .con_kc{height:192px; overflow:hidden; position:relative;}
+.kczx_content .con_kc .picbox{width:1120px;height:192px;margin:0 auto;overflow:hidden;}
+.kczx_content .con_kc .piclt{float:left;width:224px; height:192px;}
+.kczx_content .con_kc .piclt .lk_gray2{line-height:26px; width:205px;line-height:45px;height:45px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis; display:block;}
+.kczx_content .con_kc .piclt img{display:block;}
+.kczx_content .con_kc .rollleft,.kczx_content .con_kc .rollright{position:absolute;top:53px;display:block;width:17px;height:40px; z-index:99;}
+.kczx_content .con_kc .rollleft{left:0;background:url(/skin/zmn_v3/static/images/kczx_jt.png) no-repeat;}
+.kczx_content .con_kc .rollright{right:0;background:url(/skin/zmn_v3/static/images/kczx_jt.png) no-repeat right;}

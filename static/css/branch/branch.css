@@ -1,0 +1,141 @@
+/*Guanzhenzhi web debugging on 20170105*/
+body{overflow-x:auto;}
+.w1100{width:1100px;margin-left:auto;margin-right:auto;}
+.center{margin-left:auto;margin-right:auto;}
+/*引用的jslibrary.css文件中的h2的样式重新覆写*/
+h2{padding:0;}
+.fs30{font-size:30px;}
+
+/*盒子模型样式*/
+.border_bottom{border-bottom:1px solid #ddd;}
+.borderb_none{border-bottom:none;}
+.mt17{margin-top:17px;}
+.mr20{margin-right:20px;}
+.mr98{margin-right:98px;}
+.mr15{margin-right:15px;}
+.mr29{margin-right:29px;}
+.mr32{margin-right:32px;}
+.mb18{margin-bottom:18px;}
+.w340{width:340px;}
+.w362{width:340px;}
+
+.search .w1100 a.logo{margin-right:15px;}
+.search span{border-left:2px #ed6d1f solid; color:#ed6d1f; padding-left:15px; margin-top:12px; display:block;height:30px; line-height:30px;}
+/*服务指南下的样式*/
+.navs{width:784px;margin-top:12px; display:block;height:30px; line-height:30px; text-align:right;}
+.navs a{margin-left:25px;}
+
+/*内容*/
+.branch_content{width:100%;}
+.branch_content h2{height:54px;margin-bottom:10px;color:#323232;}
+
+/*新闻*/
+.branch_left{width:400px}
+.branch_con {width:280px;}
+.information{padding-top:49px; padding-bottom:38px;}
+.information ul li{line-height:36px;height:36px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; width:400px;}
+
+.branch_right{padding-top:54px;}
+.branch_right #map{width:360px;height:250px;border:1px #DDD solid; margin-bottom:10px;}
+.branch_right p{line-height:24px;}
+/*名师*/
+.box6{position:relative;padding-bottom:50px;background:#24afff;}
+.box6 .title{padding-top:40px;height:80px;}
+.box6 .tit{width:560px;height:80px;margin:0 auto; text-align:center;}
+.box6 .tit span{display:inline-block;width:162px;height:43px;margin:0 12px;text-align:center;line-height:34px;background:url(/skin/zmn_v3/static/images/branch/box6_15.png) left top no-repeat;}
+.box6 .tit span.sel{background:url(/skin/zmn_v3/static/images/branch/box6_15.png) right top no-repeat;}
+.box6 .box6_con{width:985px;}
+.box6 .box6_con li{width:159px;height:250px;margin:0 19px;}
+.box6 .box6_con li a{display:block;width:149px;height:149px; overflow:hidden; background:#FFF; margin:0 auto;}
+.box6 .box6_con li a img{margin-top:-25px;}
+.box6 .box6_con li span{display:block;width:149px;height:149px;background:url(/skin/zmn_v3/static/images/branch/box6_16.png) no-repeat;top:0;left:5px;}
+.box6 .box6_con li p{font-size:14px; line-height:24px; padding-top:10px;}
+/*活动规划*/
+.box5{position:relative;padding-bottom:50px;}
+.box5 .title{padding-top:50px;height:80px;}
+.box5_1{height:340px;}
+.box5_1 .box5_1img{width:1100px;height:340px; position:relative;overflow:hidden;}
+.box5_1 .box5_1img span{display:block;width:366px;height:340px;text-align:center;line-height:50px;}
+.box5_1 .box5_1img img{display:block; margin:0 auto;}
+.box5_1 .rollleft,.box5_1 .rollright{display:block;position:absolute;z-index:20;top:114px;width:20px;height:41px;}
+.box5_1 .rollleft{left:50%;background:url(/skin/zmn_v3/static/images/branch/zy_17.png) no-repeat;margin-left:-595px;}
+.box5_1 .rollright{right:50%;background:url(/skin/zmn_v3/static/images/branch/zy_20.png) no-repeat;margin-right:-595px;}
+.box5 p a{width:147px;height:38px;line-height:38px; margin:0 auto; background:#ed6d1f;}
+.box5 p a:hover{background:#ffe100;color:#323232;}
+/*名校录取捷报榜单*/
+.box4{position:relative;padding-bottom:80px;background:#ffe100;}
+.box4 .title{padding-top:30px;height:70px;}
+.box4 .tit{width:865px;height:74px;margin:0 auto;}
+.box4 .tit span{display:block;float:left;width:200px;height:36px;float:left;margin:0 7px;text-align:center;line-height:36px; color:#ed6d1f; border:1px #ed6d1f solid;}
+.box4 .tit span.sel{background:#ed6d1f; color:#FFF;}
+/*活动桂花*/
+/*滚动条*/
+.box4 .con {width:1100px;clear:both; margin-bottom:45px; position:relative;}
+.box4 .con .viewport{width:1100px;height:402px;overflow:hidden;position:relative;background:#fff;}/****************高度可改***************/
+.box4 .con .overview{list-style:none;position:absolute;left:0;top:0;}
+.box4 .con .thumb .end,.con .thumb{background-color:#ed6d1f;}
+.box4 .con .scrollbar{position:absolute;float:right;width:15px;border-left:1px solid #ed6d1f;right:-10px;top:0; z-index:99;}
+.box4 .con .track{position:relative;}
+.box4 .con .thumb{width:10px;cursor:pointer;overflow:hidden;position:absolute;top:0;left:-5px;}
+.box4 .con .thumb .end{overflow:hidden;height:5px;width:13px;}
+.box4 p a{width:145px;height:36px;line-height:36px; margin:0 auto; background:#ed6d1f; border:1px #ed6d1f solid;}
+.box4 p a:hover{background:#ffe100;color:#ed6d1f;}
+.overview{padding-top:50px;}
+.sevenMcW01{width:134px;}
+.sevenMcW02{width:130px;}
+.sevenMcW03{width:404px;}
+.sevenMcW04{width:142px;border-right:none !important;}
+.sevenMcW05{width:141px;}
+.sevenMcW06{width:142px;border-right:none !important;}
+.sevenMcW07{width:409px;}
+.sevenMcW08{width:245px;}
+.sevenMcW09{width:165px;}
+.sevenMcW10{width:144px;border-right:none !important;}
+.sevenMcW11{width:317px;}
+.sevenMcW12{width:365px;}
+.sevenMcW13{width:146px;border-right:none !important;}
+.sevenMcFormCo{height:38px;line-height:38px;overflow:hidden;background:#fff;border-bottom:2px solid #f2da47;}
+.sevenMcFormCo p{float:left;text-align:center;font-size:18px;color:#333;border-right:2px solid #f2da47;}
+.overview tr{height:38px;line-height:38px;overflow:hidden;background:#fff;border-bottom:2px solid #f2da47;}
+.overview td{text-align:center;font-size:18px;color:#333;border-right:2px solid #f2da47;}
+.clearfix2{height:45px;line-height:45px;overflow:hidden;background:#fff;border-bottom:5px solid #f2da47; position:absolute;top:0;left:0; z-index:98;}
+
+
+/*活动规划*/
+.box7{position:relative;padding-bottom:60px;}
+.box7 .title{padding-top:50px;height:50px;}
+.box7 .tutle{padding-bottom:30px;}
+.box7_1{height:360px; width:882px;}
+.box7_1 .box7_1img{width:882px;height:300px;position:absolute;}
+.box7_1 .box7_1img dl{width:147px;height:300px;}
+.box7_1 .box7_1img dl dt{width:119px;height:119px; overflow:hidden; margin:0 14px; margin-bottom:28px;}
+.box7_1 .box7_1img dl dt span{display:block;width:119px;height:119px;top:0;left:0; position:absolute;}
+.box7_1 .box7_1img dl dd p{line-height:32px;}
+.box7_1 .box7_1img dl dd p a{width:147px;height:38px;line-height:38px; margin:0 auto; background:#ed6d1f;}
+.box7_1 .box7_1img dl dd p a:hover{background:#ffe100;color:#323232;}
+.box7_1 .dian{z-index:15;position:absolute;bottom:0;width:882px;height:12px;text-align:center;}
+.box7_1 .dian span{cursor:pointer;display:inline-block;width:12px;height:12px;margin:0 5px;border-radius:6px;background:#707070;transition:width 0.5s;-moz-transition:width 0.5s;-webkit-transition:width 0.5s;-o-transition:width 0.5s;}
+.box7_1 .dian span.dsel{background:#ffe100;color:#fff;width:17px;}
+.box7_1 .dian_arr1,.box7_1 .dian_arr2{display:none;position:absolute;z-index:20;top:114px;width:20px;height:41px;}
+.box7_1 .dian_arr1{left:50%;background:url(/skin/zmn_v3/static/images/branch/zy_17.png) no-repeat;margin-left:-595px;}
+.box7_1 .dian_arr2{right:50%;background:url(/skin/zmn_v3/static/images/branch/zy_20.png) no-repeat;margin-right:-595px;}
+
+.information_list{padding-top:49px; padding-bottom:38px;}
+.information_list .branch_left{width:728px;}
+.information_list ul{padding-bottom:30px;}
+.information_list ul li{line-height:36px;height:36px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; width:728px;}
+
+/*翻页css*/
+.list_page{padding-top: 15px; padding-bottom:30px; font-size:14px; text-align:center;}
+.list_page a{display:inline-block;height: 36px;padding-left:12px;padding-right:12px;margin:0 5px;border:1px solid #ffe200;line-height: 36px;color: #323232;}
+.list_page a:hover,.list_page a.sel{background: #ffe200;color: #323232;}
+.list_page span{display:inline-block;height: 38px;line-height: 38px;color: #323232; margin:0 5px;}
+
+/*详情标题*/
+.list_xq_title{padding-bottom:15px;}
+.list_xq_title h2{line-height:35px; margin-bottom:10px;border-bottom:1px #d3d0d0 solid;}
+.list_xq_title p{line-height:24px;}
+.list_xq_title p span{margin:0 10px;}
+
+.list_xq{width:100%; display:table; padding-bottom:50px;}
+.list_xq p{font-size:14px; color:#6a6a6a; line-height:28px; margin-bottom:14px;}
